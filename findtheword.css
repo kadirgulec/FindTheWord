@@ -1,0 +1,34 @@
+#theMan .mask1{
+  border: 2px solid black;
+
+  -webkit-mask-image: linear-gradient(black, black );
+  mask-image: linear-gradient(black, black);
+    /* Javascript ile buradaki maski büyüterek adam asilma efekti verecegiz */
+  -webkit-mask-size: 38% 0%;
+  mask-size: 38% 0%;
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-position: bottom left;
+  mask-position: bottom left;
+}
+
+#theMan .mask2 {
+    border: 2px solid black;
+  
+    -webkit-mask-image: linear-gradient(black, black );
+    mask-image: linear-gradient(black, black);
+      /* Javascript ile buradaki maski büyüterek adam asilma efekti verecegiz */
+    -webkit-mask-size: 0% 25%;
+    mask-size: 0% 25%;
+  
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  
+    -webkit-mask-position: top left;
+    mask-position: top left;
+  }
+
+
+  
